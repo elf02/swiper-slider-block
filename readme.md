@@ -15,7 +15,7 @@ function my_swiper_settings($swiper_settings, $attributes) {
     if (
         isset($attributes['className']) &&
         $attributes['className'] === 'my-swiper'
-   ) {
+    ) {
         unset($swiper_settings['navigation']);
     }
 
