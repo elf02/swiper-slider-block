@@ -39,9 +39,6 @@ export default function Edit({ attributes, setAttributes }) {
 
 	return (
 		<div {...useBlockProps()}>
-			<p className="elf02-swiper-slider-compact">
-				{__('Swiper Slider - Click to edit.', 'elf02-swiper-slider')}
-			</p>
 			<InnerBlocks
 				allowedBlocks={ALLOWED_BLOCKS}
 				template={TEMPLATE}
